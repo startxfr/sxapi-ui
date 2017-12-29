@@ -9,5 +9,4 @@ app_main:
 app:
   extends: app_main
   volumes:
-    - "./sxapi.json:/conf/sxapi.json:ro" 
-  command: ["test"]
+    - "./sxapi.json:/conf/sxapi.json:ro"
