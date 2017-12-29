@@ -1,0 +1,99 @@
+{
+  "name": "sxapi-ui",
+  "version": "0.0.1",
+  "description": "sxapi-ui is an web framework for building rich web interface using javascript technologies",
+  "author": "STARTX <dev+sxapi_ui@startx.fr>",
+  "license": "GNU GPLv3",
+  "private": false,
+  "analyze": true,
+  "contributors": [
+    {
+      "name": "startx-dev",
+      "email": "dev@startx.fr"
+    },
+    {
+      "name": "mallowtek",
+      "email": "mallowtek@gmail.com"
+    }
+  ],
+  "keywords": [
+    "web framework",
+    "startx",
+    "microservice",
+    "nodejs",
+    "dev",
+    "simple",
+    "rich interface",
+    "responsive",
+    "angular"
+  ],
+  "main": "app.js",
+  "directories": {
+    "lib": "core",
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/startxfr/sxapi-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/startxfr/sxapi-ui/issues"
+  },
+  "dependencies": {
+    "change-case": "~3.0.1",
+    "async": "~2.6.0",
+    "merge": "~1.2.0",
+    "timer-machine": "~1.1.0",
+    "ssh2": "~0.5.5",
+    "ip": "~1.1.5",
+    "body-parser": "~1.18.2",
+    "cors": "~2.8.4",
+    "crypto": "~1.0.1",
+    "express": "~4.16.2",
+    "aws-sdk": "~2.162.0",
+    "uuid": "~3.1.0",
+    "mysql": "~2.15.0",
+    "moment": "~2.19.4",
+    "cookies": "~0.7.1",
+    "request": "~2.83.0",
+    "googleapis": "~23.0.0",
+    "google-auth-library": "~0.12.0",
+    "mustache": "~2.3.0",
+    "redis": "~2.8.0",
+    "pg": "~7.4.0",
+    "busboy": "~0.2.14",
+    "memcache": "~0.3.0",
+    "couchbase": "~2.4.3",
+    "angular-patternfly": "~4.14.0",
+    "angularjs-datatables": "~0.5.9",
+    "components-jqueryui": "~1.12.1",
+    "angular-dragdrop": "~1.0.13",
+    "angular": "~1.6.8",
+    "angular-svg-base-fix": "~2.0.0",
+    "angular-sanitize": "~1.6.8",
+    "angular-animate": "~1.6.8",
+    "angular-ui-bootstrap": "~2.5.6",
+    "angular-drag-and-drop-lists": "~2.1.0",
+    "patternfly": "~3.32.1"
+  },
+  "devDependencies": {
+    "mocha": "~4.0.1",
+    "chai": "~4.1.2",
+    "chai-http": "~3.0.0",
+    "sinon": "~4.1.2"
+  },
+  "engines": {
+    "node": ">= 8.9.1",
+    "npm": ">= 5.5.1"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
+}
