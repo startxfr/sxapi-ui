@@ -1,4 +1,4 @@
-FROM startx/sxapi:0.0.77
+FROM startx/sxapi:testing
 MAINTAINER STARTX "dev@startx.fr"
 
 USER root
