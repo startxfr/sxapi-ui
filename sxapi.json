@@ -1,7 +1,7 @@
 {
     "name": "sxapi-ui",
     "description": "sxapi-ui default dev config file",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "debug": true,
     "log": {
         "filters": {
