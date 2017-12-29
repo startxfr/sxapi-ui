@@ -2,8 +2,7 @@ FROM startx/sxapi:latest
 MAINTAINER STARTX "dev@startx.fr"
 
 USER root
-RUN  rm -rf $APP_PATH/test $APP_PATH/node_modules $APP_PATH/package.json && \
-     apk update && apk upgrade && apk add git
+RUN  rm -rf $APP_PATH/test $APP_PATH/node_modules $APP_PATH/package.json
 COPY ./test $APP_PATH/test
 COPY ./*.j* $APP_PATH/
 COPY ./static $APP_PATH/static
