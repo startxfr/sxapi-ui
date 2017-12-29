@@ -2,13 +2,13 @@
     "name": "sxapi-ui",
     "description": "sxapi-ui default dev config file",
     "debug": true,
+    "version": "0.0.4",
     "log": {
         "filters": {
             "level": "0,1,2",
             "type": "debug,info,error,warn"
         }
     },
-    "version": "0.0.3",
     "server": {
         "type": "express",
         "port": "8081",
