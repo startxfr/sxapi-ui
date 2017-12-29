@@ -1,17 +1,15 @@
 app:
-  image: node:8
+  image: startx/sxapi:latest
   container_name: "sxapi-ui-dev"
   mem_limit: 512m
   memswap_limit: 1g
   ports:
     - "8081:8081"
-  environment:
-  - NODE_ENV=development
-  - APP_PATH=/usr/src/app
-  - DATA_PATH=/data
-  - CONF_PATH=/conf
   volumes:
-  - "./:/usr/src/app:Z"
+  - "./node_modules:/usr/src/app/node_modules:Z"
+  - "./test:/usr/src/app/test:Z"
+  - "./static:/usr/src/app/static:Z"
+  - "./package.json:/usr/src/app/package.json:Z"
   - "./sxapi.json:/conf/sxapi.json:Z"
   working_dir: /usr/src/app
-  entrypoint: /usr/src/app/run.sh
+  entrypoint: /bin/sxapi start
