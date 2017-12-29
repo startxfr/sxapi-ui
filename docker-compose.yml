@@ -1,9 +1,12 @@
-app:
+app_main:
   build: .
   container_name: "sxapi-ui-master"
-  mem_limit: 512m
-  memswap_limit: 1g
+  mem_limit: 200m
+  memswap_limit: 500m
   ports:
     - "8081:8081"
+
+app:
+  extends: app_main
   volumes:
-  - "./sxapi.json:/conf/sxapi.json:Z"
+    - "./sxapi.json:/conf/sxapi.json:ro" 

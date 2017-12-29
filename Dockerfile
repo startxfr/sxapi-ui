@@ -18,4 +18,5 @@ RUN  cd $APP_PATH \
 USER node:node
 EXPOSE 8081
 WORKDIR $APP_PATH
-CMD [ "/bin/sxapi" , "start" ]
+ENTRYPOINT [ "/bin/sxapi" ]
+CMD [ "start" ]
