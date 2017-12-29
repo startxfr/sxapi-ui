@@ -1,6 +1,6 @@
 {
     "name": "sxapi-ui",
-    "description": "sxapi-ui default testing config file",
+    "description": "sxapi-ui default v0.0.1 config file",
     "version": "0.0.1",
     "debug": true,
     "log": {

@@ -10,7 +10,7 @@ COPY ./static $APP_PATH/static
 COPY ./sxapi.json $CONF_PATH/sxapi.json
 
 RUN  cd $APP_PATH \
- &&  npm install \
+ &&  npm install -production \
  &&  npm dedupe \
  &&  npm cache verify \
  &&  npm cache clean --force \
@@ -19,4 +19,4 @@ RUN  cd $APP_PATH \
 USER node:node
 EXPOSE 8081
 WORKDIR $APP_PATH
-CMD [ "/bin/sxapi" , "test" ]
+CMD [ "/bin/sxapi" , "start" ]
