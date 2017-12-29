@@ -1,4 +1,4 @@
-FROM startx/sxapi:latest
+FROM startx/sxapi:0.0.76
 MAINTAINER STARTX "dev@startx.fr"
 
 USER root
@@ -19,4 +19,4 @@ RUN  cd $APP_PATH \
 USER node:node
 EXPOSE 8081
 WORKDIR $APP_PATH
-CMD [ "/bin/sxapi" , "start" ]
+CMD [ "/bin/sxapi" , "test" ]

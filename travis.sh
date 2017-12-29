@@ -12,7 +12,7 @@ sudo docker-compose up -d app
 sudo docker-compose logs --tail=200
 
 echo "========> TESTING APPLICATIONS"
-curl -I http://localhost:1981 && echo ""
+curl -I http://localhost:8081 && echo ""
 
 echo "========> END TESTING APPLICATIONS"
 exit 0;
