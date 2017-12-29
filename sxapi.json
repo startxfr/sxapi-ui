@@ -1,7 +1,6 @@
 {
     "name": "sxapi-ui",
-    "description": "sxapi-ui default v0.0.2 config file",
-    "version": "0.0.2",
+    "description": "sxapi-ui default v0.0.3 config file",
     "debug": false,
     "log": {
         "filters": {
@@ -9,6 +8,7 @@
             "type": "debug,info,error,warn"
         }
     },
+    "version": "0.0.3",
     "server": {
         "type": "express",
         "port": "8081",

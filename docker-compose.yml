@@ -1,6 +1,6 @@
 app:
   build: .
-  container_name: "sxapi-ui-v0.0.2"
+  container_name: "sxapi-ui-v0.0.3"
   mem_limit: 512m
   memswap_limit: 1g
   ports:
