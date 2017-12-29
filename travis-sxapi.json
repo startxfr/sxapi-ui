@@ -1,8 +1,8 @@
 {
-    "name": "sxapi-ui",
-    "description": "sxapi-ui default testing config file",
-    "debug": true,
+    "name": "sxapi-ui-default-travis",
+    "description": "sxapi UI default travis config file",
     "version": "0.0.4",
+    "debug": true,
     "log": {
         "filters": {
             "level": "0,1,2",
@@ -10,7 +10,6 @@
         }
     },
     "server": {
-        "type": "express",
         "port": "8081",
         "static": true,
         "static_path": "/",
@@ -20,7 +19,7 @@
         "endpoints": [
             {
                 "path": "/ping",
-                "desc": "Ping the application. Return a sample text message",
+                "desc": "Ping the application. Return a sample message in json",
                 "code": "200",
                 "body": "pong"
             }
