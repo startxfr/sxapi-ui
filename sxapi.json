@@ -2,7 +2,7 @@
     "name": "sxapi-ui",
     "description": "sxapi-ui default master config file",
     "debug": true,
-    "version": "0.0.4",
+    "version": "0.1.4",
     "log": {
         "filters": {
             "level": "0,1,2",
