@@ -1,7 +1,7 @@
 {
     "name": "sxapi-ui-default-travis",
     "description": "sxapi UI default travis config file",
-    "version": "0.0.4",
+    "version": "0.1.4",
     "debug": true,
     "log": {
         "filters": {

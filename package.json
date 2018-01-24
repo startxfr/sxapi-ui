@@ -1,6 +1,6 @@
 {
   "name": "sxapi-ui",
-  "version": "0.0.4",
+  "version": "0.1.4",
   "description": "sxapi-ui is an web framework for building rich web interface using javascript technologies",
   "author": "STARTX <dev+sxapi_ui@startx.fr>",
   "license": "GNU GPLv3",
