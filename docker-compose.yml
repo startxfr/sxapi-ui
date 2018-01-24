@@ -10,4 +10,3 @@ app:
   extends: app_main
   volumes:
     - "./sxapi.json:/conf/sxapi.json:ro" 
-  command: ["test"]
