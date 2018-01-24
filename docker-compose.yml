@@ -6,10 +6,9 @@ app:
   ports:
     - "8081:8081"
   volumes:
-  - "./node_modules:/usr/src/app/node_modules:Z"
-  - "./test:/usr/src/app/test:Z"
-  - "./static:/usr/src/app/static:Z"
-  - "./package.json:/usr/src/app/package.json:Z"
-  - "./sxapi.json:/conf/sxapi.json:Z"
-  working_dir: /usr/src/app
-  entrypoint: /bin/sxapi start
+  - "./node_modules:/usr/src/app/node_modules:z"
+  - "./test:/usr/src/app/test:z"
+  - "./static:/usr/src/app/static:z"
+  - "./package.json:/usr/src/app/package.json:z"
+  - "./sxapi.json:/conf/sxapi.json:z"
+  command: start
