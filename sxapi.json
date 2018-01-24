@@ -2,7 +2,7 @@
     "name": "sxapi-ui",
     "description": "sxapi-ui default v0.0.4 config file",
     "debug": false,
-    "version": "0.0.4",
+    "version": "0.1.4",
     "log": {
         "filters": {
             "level": "0,1,2",
