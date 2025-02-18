@@ -68,7 +68,7 @@
     "pg": "~7.4.0",
     "busboy": "~0.2.14",
     "memcache": "~0.3.0",
-    "couchbase": "~3.2.5",
+    "couchbase": "~4.0.0",
     "angular-patternfly": "~5.0.3",
     "angularjs-datatables": "~0.5.9",
     "components-jqueryui": "~1.12.1",
